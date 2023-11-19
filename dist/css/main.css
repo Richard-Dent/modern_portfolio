@@ -179,6 +179,44 @@ main {
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
 
+.tech-skills {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: 'tech-title tech-title tech-title' 'skill1 skill2 skill3';
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 50px; }
+  .tech-skills .tech-title {
+    grid-area: tech-title;
+    font-size: 1.5rem; }
+  .tech-skills .skill-1 {
+    grid-area: skill1; }
+  .tech-skills .skill {
+    background: #515151;
+    padding: 0.5rem; }
+  .tech-skills .progress {
+    overflow: hidden;
+    height: 20px;
+    background: #ffffffc7;
+    border-radius: 5px;
+    margin-bottom: 0.3rem; }
+    .tech-skills .progress div {
+      height: 100%;
+      color: #fff;
+      text-align: center;
+      background: #eece1a; }
+
+.about-b .progress {
+  overflow: hidden;
+  height: 20px;
+  background: #ffffffc7;
+  border-radius: 5px;
+  margin-bottom: 0.3rem; }
+  .about-b .progress div {
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background: #eece1a; }
+
 .projects {
   display: grid;
   grid-gap: 0.7rem;

@@ -113,6 +113,62 @@ main {
     }
 }
 
+.tech-skills {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas: 
+    'tech-title tech-title tech-title'
+    'skill1 skill2 skill3';
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+
+    .tech-title {
+        grid-area: tech-title;
+        font-size: 1.5rem;
+    }
+    
+    .skill-1 {
+        grid-area: skill1;
+    }
+    
+    .skill {
+        background: lighten($color: $primary-color, $amount: 5);
+        padding: 0.5rem;
+    }
+
+    .progress {
+        overflow: hidden;
+        height: 20px;
+        background: $tech-skills-color;
+        border-radius: 5px;
+        margin-bottom: 0.3rem;
+
+        div {
+            height: 100%;
+            color: #fff;
+            text-align: center;
+            background: $secondary-color;
+        }
+    }
+}
+
+.about-b {
+    .progress {
+        overflow: hidden;
+        height: 20px;
+        background: $tech-skills-color;
+        border-radius: 5px;
+        margin-bottom: 0.3rem;
+
+        div {
+            height: 100%;
+            color: #fff;
+            text-align: center;
+            background: $secondary-color;
+        }
+    }
+}
+
 // Work/Projects
 .projects {
     display: grid;
