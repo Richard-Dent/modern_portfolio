@@ -303,7 +303,7 @@ main {
     .menu-branding .portrait {
       width: 115px;
       height: 215px;
-      background: url("../img/headshot150-g.jpg"); }
+      background: url("../img/headshot150-g.jpg") no-repeat; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
