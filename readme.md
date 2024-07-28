@@ -2,7 +2,7 @@
 
 A modern repsonsive portfolio built with HTML5, CSS3, SASS, and Javascript (vanilla).  The website is deployed on GitHub Pages
 
-![modern portfolio screenshot](./README_SCREENSHOTS/MODERN_PORTFOLIO.png)
+![modern portfolio screenshot](dist/img/MODERN_PORTFOLIO.png)
 
 ## Project Specifications
 
